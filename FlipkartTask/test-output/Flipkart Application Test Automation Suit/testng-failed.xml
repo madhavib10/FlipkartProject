@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart Application Test Automation Suit]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Flipkart Application Test Cases(failed)">
+    <classes>
+      <class name="TestCases.SearchResultPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateCreateNewContact" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.SearchResultPageTest -->
+    </classes>
+  </test> <!-- Flipkart Application Test Cases(failed) -->
+</suite> <!-- Failed suite [Flipkart Application Test Automation Suit] -->

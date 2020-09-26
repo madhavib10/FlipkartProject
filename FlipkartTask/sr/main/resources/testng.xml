@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Flipkart Application Test Automation Suit"  >
+  
+  <listeners>
+  	<listener class-name="ExtentReportListener.ExtentReportListener" />
+  </listeners>
+  
+  
+  <test name="Flipkart Application Test Cases" >
+    <classes>
+       <class name="TestCases.HomePageTest" />
+       <class name="TestCases.SearchResultPageTest" />
+      
+    </classes>
+  </test>
+</suite>
